@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Useful event target example</title>
+    <!--<style>
+      div {
+        background-color: red;
+        height: 100px;
+        width: 25%;
+        float: left;
+      }
+    </style>-->
+  </head>
+  <body>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="utf-8" />
+   <title>Gestion d'un formulaire en JavaScript</title>
+</head>
+<body> 
+<p id="message_erreur"></p>
+<form method="post" action="#" enctype="multipart/form-data" id="myForm">
+   <p>
+      <label for="nom">Nom<span class="alerte" title="champ obligatoire">*</span></label> 
+      <input name="nom" id="nom" value="" type="text">
+   </p>
+   <p>
+      <label for="prenom">Prénom<span class="alerte" title="champ obligatoire">*</span></label> 
+      <input name="prenom" id="prenom" value="" type="text">
+   </p>
+   <p>
+      <label for="email" lang="en">Adresse mail <span class="alerte" title="champ obligatoire">*</span></label> 
+      <input name="email" id="email" value="" type="text">
+   </p>
+   <p>
+      <label for="message">Message <span class="alerte" title="champ obligatoire">*</span></label> 
+      <textarea name="message" rows="10" id="message"></textarea>
+   </p>
+   <p class="alerte">
+      <strong>* champs obligatoires </strong>
+   </p>
+   <p class="actions">
+      <input name="envoyer" value="Envoyer" class="submit" type="submit">
+   </p>
+</form> 
+</body>
+</html>
+    <!--<script>
+      for(var i = 1; i <= 50
+        ; i++) {
+        var myDiv = document.createElement('div');
+        document.body.appendChild(myDiv);
+      }
+      function random(number) {
+        return Math.floor(Math.random()*number);
+      }
+      function bgChange() {
+        var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+        return rndCol;
+      }
+      var divs = document.querySelectorAll('div');
+      for(var i = 0; i < divs.length; i++) {
+        divs[i].onmouseover = function(e) {
+          e.target.style.backgroundColor = bgChange();
+        }
+      }
+    </script>-->
+
+</body>
+
+<!--<script type="text/javascript"> 
+var myImage = document.querySelector('img'); 
+myImage.onclick = function() {
+   var mySrc = myImage.getAttribute('src');
+   if(mySrc === 'j.jpg') {
+      myImage.setAttribute('src','j.jpg');
+   } else {
+      myImage.setAttribute('src','k.jpg');
+   }
+   else {
+      myImage.setAttribute('src','kk.jpg');
+   }
+   else {
+      myImage.setAttribute('src','kkk.jpg');
+   }
+   else {
+      myImage.setAttribute('src','kkkk.jpg');
+   }
+}
+</script>-->
+
+</html>
